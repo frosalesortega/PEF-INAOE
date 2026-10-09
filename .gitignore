@@ -1,0 +1,18 @@
+# Los CSV de Cuenta Publica NO se versionan: son de 96 a 311 MB cada uno,
+# muy por encima del limite de GitHub. Se descargan de Transparencia
+# Presupuestaria siguiendo las instrucciones del README.
+datos/cuenta_publica/
+
+# Extractos del INAOE: los genera el codigo a partir de los CSV anteriores.
+datos/intermedios/
+
+# Copias UTF-8 de los CSV crudos (regenerables)
+.cache/
+
+# Entorno de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Sistema
+.DS_Store
